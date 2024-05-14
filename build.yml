@@ -13,7 +13,7 @@ services:
       - ./data:/code/data
 
   frontend_build:
-    image: node:12
+    image: node:20.13.0
     volumes:
       - ./frontend:/app
     working_dir: /app
